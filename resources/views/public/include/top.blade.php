@@ -10,6 +10,9 @@
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
+	<link href="css/contact.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">

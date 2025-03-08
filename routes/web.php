@@ -26,3 +26,39 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('public.layout.about');
 });
+
+Route::get('/contact', function () {
+    return view('public.layout.contact');
+});
+
+Route::get('/course', function () {
+    return view('public.layout.course');
+});
+
+Route::get('/detal', function () {
+    return view('public.layout.coursedetal');
+});
+
+
+Route::get('/gallery', function () {
+    return view('public.layout.gallery');
+});
+
+Route::get('/pricing', function () {
+    return view('public.layout.pricing');
+});
+
+
+Route::get('/login', function () {
+    return view('public.layout.login');
+});
+
+
+Route::get('/register', function () {
+    return view('public.layout.register');
+});
+
+Route::get('/quote', function () {
+    return view('public.layout.quote');
+});
+
