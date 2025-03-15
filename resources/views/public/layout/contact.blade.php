@@ -29,7 +29,8 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" action="{{route("contacts.store")}}" method="post" id="contactForm" ">
+                            @csrf
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -44,11 +45,6 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
                                     </div>
                                 </div>
                             </div>

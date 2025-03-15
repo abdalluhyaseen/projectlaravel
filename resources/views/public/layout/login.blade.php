@@ -29,7 +29,7 @@
       </div>
       <button type="submit">Log In</button>
       <div class="register">
-        <p>Don't have an account? <a href="saignup">Register</a></p>
+        <p>Don't have an account? <a href="signup">Register</a></p>
       </div>
     </form>
   </div>

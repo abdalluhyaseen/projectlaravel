@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +37,7 @@ Route::get('/contact', function () {
     return view('public.layout.contact');
 });
 
-Route::get('/services', function () {
+Route::get('/services', action: function () {
     return view('public.layout.services');
 });
 
@@ -47,7 +49,12 @@ Route::get('/login', function () {
     return view('public.layout.login');
 });
 
-Route::get('/saignup', function () {
-    return view('public.layout.saignup');
+Route::get('/signup', function () {
+    return view('public.layout.signup');
 });
 
+
+Route::resource('customer',CustomerController::class);
+
+
+Route::resource('contacts',ContactController::class);

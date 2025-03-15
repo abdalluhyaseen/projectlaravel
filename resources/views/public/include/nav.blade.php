@@ -37,7 +37,7 @@
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="from.html" class="btn header-btn">became a member</a>
+                                    <a href="customer" class="btn header-btn">sign up</a>
                                 </div>
                             </div>
                         </div>
