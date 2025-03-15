@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Driven</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet" >
-	<link href="css/font-awesome.min.css" rel="stylesheet" >
-	<link href="css/global.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
-	<link href="css/contact.css" rel="stylesheet">
-	<link href="css/login.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Barber HTML-5 Template </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets1/img/favicon.ico">
 
-	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-	<script src="js/bootstrap.bundle.min.js"></script>
-
+	<!-- CSS here -->
+	<link rel="stylesheet" href="assets1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets1/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets1/css/slicknav.css">
+    <link rel="stylesheet" href="assets1/css/flaticon.css">
+    <link rel="stylesheet" href="assets1/css/gijgo.css">
+    <link rel="stylesheet" href="assets1/css/animate.min.css">
+    <link rel="stylesheet" href="assets1/css/animated-headline.css">
+	<link rel="stylesheet" href="assets1/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets1/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets1/css/themify-icons.css">
+	<link rel="stylesheet" href="assets1/css/slick.css">
+	<link rel="stylesheet" href="assets1/css/nice-select.css">
+	<link rel="stylesheet" href="assets1/css/style.css">
 </head>
 <body>
+

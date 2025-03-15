@@ -4,502 +4,257 @@
 @section( 'content')
 
 
+<main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70 text-center">
+                                <h2>About US</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--? About Area Start -->
+        <section class="about-area section-padding30 position-relative">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-11">
+                        <!-- about-img -->
+                        <div class="about-img ">
+                            <img src="assets1/img/gallery/about.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-caption">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle section-tittle3 mb-35">
+                                <span>About Our company</span>
+                                <h2>52 Years Of Experience In Hair cut!</h2>
+                            </div>
+                            <p class="mb-30 pera-bottom">Brook presents your services with flexible, convenient and cdpoe layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfreplication of the designers is intended.</p>
+                            <p class="pera-top mb-50">Brook presents your services with flexible, convefnient and ent anipurpose layouts. You can select your favorite.</p>
+                            <img src="assets1/img/gallery/signature.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About Shape -->
+            <div class="about-shape">
+                <img src="assets1/img/gallery/about-shape.png" alt="">
+            </div>
+        </section>
+        <!-- About-2 Area End -->
+        <!--? Services Area Start -->
+        <section class="service-area pb-170">
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
+                        <div class="section-tittle text-center mb-90">
+                            <span>Professional Services</span>
+                            <h2>Our Best services that  we offering to you</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section caption -->
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <i class="flaticon-healthcare-and-medical"></i>
+                            </div>
+                            <div class="service-cap">
+                                <h4><a href="#">Stylish Hair Cut</a></h4>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-caption active text-center mb-30">
+                            <div class="service-icon">
+                                <i class="flaticon-healthcare-and-medical"></i>
+                            </div>
+                            <div class="service-cap">
+                                <h4><a href="#">Body Massege</a></h4>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <i class="flaticon-healthcare-and-medical"></i>
+                            </div>
+                            <div class="service-cap">
+                                <h4><a href="#">Breard Style</a></h4>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Area End -->
+        <!--? Team Start -->
+        <div class="team-area pb-180">
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
+                        <div class="section-tittle text-center mb-100">
+                            <span>Professional Teams</span>
+                            <h2>Our award winner hair cut exparts for you</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row team-active dot-style">
+                    <!-- single Tem -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets1/img/gallery/team1.png" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Barber</span>
+                                <h3><a href="#">Guy C. Pulido bks</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets1/img/gallery/team2.png" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Color Expart</span>
+                                <h3><a href="#">Steve L. Nolan</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets1/img/gallery/team3.png" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Barber</span>
+                                <h3><a href="#">Edgar P. Mathis</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div class="single-team mb-80 text-center">
+                            <div class="team-img">
+                                <img src="assets1/img/gallery/team2.png" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <span>Master Barber</span>
+                                <h3><a href="#">Edgar P. Mathis</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        <!-- Best Pricing Area Start -->
+        <div class="best-pricing section-padding2 position-relative">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="section-tittle mb-50">
+                            <span>Our Best Pricing</span>
+                            <h2>We provide best price<br> in the city!</h2>
+                        </div>
+                        <!-- Pricing  -->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>Styling. . . . . . . . . . . . . . . . . . . . . . . . . . . . <span>$25</span></li>
+                                        <li>Styling + Color. . . . . . . . . . . . . . . . . . . <span>$65</span></li>
+                                        <li>Styling + Tint. . . . . . . . . . . . . . . . . . . . . .<span>$65</span></li>
+                                        <li>  Semi-permanent wave. . . . . . . . . . . . .<span>$65</span></li>
+                                        <li> Cut + Styling. . . . . . . . . . . . . . . . . . . . . .<span>$63</span></li>
+                                        <li> Cut + Styling + Color. . . . . . . . . . . . . <span>$100</span></li>
+                                        <li> Cut + Styling + Tint. . . . . . . . . . . . . . . .<span>$100</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>Cut. . . . . . . . . . . . . . . . . . . . . . . . . . . . .<span>$25</span></li>
+                                        <li>Shave. . . . . . . . . . . . . . . . . . . . . . . . . . <span>$65</span></li>
+                                        <li>Beard trim. . . . . . . . . . . . . . . . . . . . . .  <span>$65</span></li>
+                                        <li>Cut + beard trim. . . . . . . . . . . . . . . . .  <span>$65</span></li>
+                                        <li>Cut + shave. . . . . . . . . . . . . . . . . . . . . . .<span>$63</span></li>
+                                        <li>Clean up. . . . . . . . . . . . . . . . . . . . . . . . .<span>$100</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pricing img -->
+            <div class="pricing-img">
+                <img class="pricing-img1" src="assets1/img/gallery/pricing1.png" alt="">
+                <img class="pricing-img2" src="assets1/img/gallery/pricing2.png" alt="">
+            </div>
+        </div>
+        <!-- Best Pricing Area End -->
+        <!--? Gallery Area Start -->
+        <div class="gallery-area section-padding30">
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
+                        <div class="section-tittle text-center mb-100">
+                            <span>our image gellary</span>
+                            <h2>some images from our barber shop</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img " style="background-image: url(assets1/img/gallery/gallery1.png);"></div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img " style="background-image: url(assets1/img/gallery/gallery2.png);"></div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img " style="background-image: url(assets1/img/gallery/gallery3.png);"></div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img " style="background-image: url(assets1/img/gallery/gallery4.png);"></div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gallery Area End -->
 
-<section id="center" class="center_o">
- <div class="container">
-  <div class="row center_o1">
-   <div class="col-md-12">
-	 <h5 class="normal col_1 mb-0"><a class="col_2" href="/home">Home</a> <span class="col_2">/</span> <a class="col_2" href="#">Pages</a> <span class="col_2">/</span> About Us  </h5>
-   </div>
-  </div>
- </div>
-</section>
 
-<section id="about_h" class="mt-0">
- <div class="container">
-  <div class="row about_h1">
-   <div class="col-md-6">
-    <div style="padding-top:100px;" class="about_h1r">
-	 <h5 class="col_1 mb-4">ABOUT US</h5>
-	 <h1>We Can Help Develop <span class="col_1">For Your Driving</span> Skills</h1>
-	 <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable you are going to use a passage.</p>
-	 <p class="mb-1"><i style="margin-right:5px;" class="fa fa-check-circle col_1"></i> Uneasy barton seeing remark happen hi has.</p>
-	 <p class="mb-1"><i style="margin-right:5px;" class="fa fa-check-circle col_1"></i> It has survived not only five centuries</p>
-	 <p class="mb-3"><i style="margin-right:5px;" class="fa fa-check-circle col_1"></i> Lorem Ipsum has been the ndustry standard dummy text</p>
-	 <h4 class="mb-4 col_1"><i style="margin-right:5px;" class="fa fa-phone col_1"></i> +123 123 456 </h4>
-	 <h6><a class="button" href="#">Discover More <i style="margin-left:5px;" class="fa fa-long-arrow-right"></i></a></h6>
-	</div>
-   </div>
-   <div class="col-md-6">
-    <div class="about_h1l">
-	  <div class="grid clearfix">
-		  <figure class="effect-jazz mb-0">
-			<a href="#"><img src="img/4.jpg" class="w-100" alt="img25"></a>
-		  </figure>
-	  </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+    </main>
 
-<section id="history">
- <div class="container">
-   <div class="row course_1 mb-3 text-center">
-    <div class="col-md-12">
-	  <h5 class="mb-3">OUR HISTORY</h5>
-	  <h2>Our History <span class="col_1">Detail</span></h2>
-	</div>
-  </div>
-   <div class="history_1 mt-0 row clearfix">
-    <div class="col-md-4">
-	 <div class="history_1i text-center clearfix">
-	  <span><i class="fa fa-globe"></i></span>
-	  <h4>Easy To Use</h4>
-	  <p>We’ve Put A Lot Of Thought In Giving  You The Best Possible Experience  To Make Your Job Easier.</p>
-	 </div>
-	</div>
-	<div class="col-md-4">
-	 <div class="history_1i text-center clearfix">
-	  <span><i class="fa fa-comments-o"></i></span>
-	  <h4>Outstanding Support</h4>
-	  <p>We’ve Put A Lot Of Thought In Giving  You The Best Possible Experience  To Make Your Job Easier.</p>
-	 </div>
-	</div>
-	<div class="col-md-4">
-	 <div class="history_1i text-center clearfix">
-	  <span><i class="fa fa-heart-o"></i></span>
-	  <h4>Simply Beautiful</h4>
-	  <p>We’ve Put A Lot Of Thought In Giving  You The Best Possible Experience  To Make Your Job Easier.</p>
-	 </div>
-	</div>
-   </div>
-   <div class="history_1 row clearfix">
-    <div class="col-md-4">
-	 <div class="history_1i text-center clearfix">
-	  <span><i class="fa fa-cube"></i></span>
-	  <h4>Careful Crafted</h4>
-	  <p>We’ve Put A Lot Of Thought In Giving  You The Best Possible Experience  To Make Your Job Easier.</p>
-	 </div>
-	</div>
-	<div class="col-md-4">
-	 <div class="history_1i text-center clearfix">
-	  <span><i class="fa fa-th"></i></span>
-	  <h4>20+ Bulilder Module</h4>
-	  <p>We’ve Put A Lot Of Thought In Giving  You The Best Possible Experience To Make Your Job Easier.</p>
-	 </div>
-	</div>
-	<div class="col-md-4">
-	 <div class="history_1i text-center clearfix">
-	  <span><i class="fa fa-play-circle-o"></i></span>
-	  <h4>WP Video Training</h4>
-	  <p>We’ve Put A Lot Of Thought In Giving  You The Best Possible Experience  To Make Your Job Easier.</p>
-	 </div>
-	</div>
-   </div>
-   <div class="history_2 row clearfix">
-    <div class="col-md-3">
-	 <div class="history_2i text-center clearfix">
-	   <h3 class="col_1">60</h3>
-	   <h5>Hours Per Week</h5>
-	 </div>
-	</div>
-	<div class="col-md-3">
-	 <div class="history_2i text-center clearfix">
-	   <h3 class="col_1">23,025</h3>
-	   <h5>Line Of Code</h5>
-	 </div>
-	</div>
-	<div class="col-md-3">
-	 <div class="history_2i text-center clearfix">
-	   <h3 class="col_1">930</h3>
-	   <h5>Projects Completed</h5>
-	 </div>
-	</div>
-	<div class="col-md-3">
-	 <div class="history_2i border-0 text-center clearfix">
-	   <h3 class="col_1">364</h3>
-	   <h5>Shots On Dribble</h5>
-	 </div>
-	</div>
-   </div>
- </div>
-</section>
-
-<section id="choose">
- <div class="container">
-    <div class="row course_1 mb-3 text-center">
-    <div class="col-md-12">
-	  <h5 class="mb-3">WHY CHOOSE US</h5>
-	  <h2>Our Best <span class="col_1">Quality</span></h2>
-	</div>
-  </div>
-
-    <div class="choose_1 row clearfix">
-	 <div class="col-md-4">
-	  <div class="choose_1i text-center clearfix">
-	   <span class="col_1">
-	    <i class="fa fa-headphones"></i>
-	   </span>
-	   <h4><a class="col_5" href="#">Best service guarantee</a></h4>
-	   <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
-	  </div>
-	 </div>
-	 <div class="col-md-4">
-	  <div class="choose_1i text-center clearfix">
-	   <span class="col_1">
-	    <i class="fa fa-gift"></i>
-	   </span>
-	   <h4><a class="col_5" href="#">Exclusive gifts</a></h4>
-	   <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
-	  </div>
-	 </div>
-	 <div class="col-md-4">
-	  <div class="choose_1i text-center clearfix">
-	   <span class="col_1">
-	    <i class="fa fa-credit-card"></i>
-	   </span>
-	   <h4><a class="col_5" href="#">Get more from your card</a></h4>
-	   <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
-	  </div>
-	 </div>
-	</div>
-	<div class="choose_2 row clearfix">
-	 <div class="col-md-3">
-	  <div class="choose_2i row m-0 clearfix">
-	   <div class="col-md-8 space_left">
-	    <div class="choose_2il clearfix">
-		 <h2 class="mgt">274</h2>
-		 <p class="font_14 mb-0">New Visiters Every Week</p>
-		</div>
-	   </div>
-	   <div class="col-md-4 space_left">
-	    <div class="choose_2ir clearfix">
-		 <i class="fa fa-users col_1"></i>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-md-3">
-	  <div class="choose_2i row m-0 clearfix">
-	   <div class="col-md-8 space_left">
-	    <div class="choose_2il clearfix">
-		 <h2 class="mgt">11554</h2>
-		 <p class="font_14 mb-0">New Visiters Every Week</p>
-		</div>
-	   </div>
-	   <div class="col-md-4 space_left">
-	    <div class="choose_2ir clearfix">
-		 <i class="fa fa-thumbs-o-up col_1"></i>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-md-3">
-	  <div class="choose_2i row m-0 clearfix">
-	   <div class="col-md-8 space_left">
-	    <div class="choose_2il clearfix">
-		 <h2 class="mgt">291</h2>
-		 <p class="font_14 mb-0">New Visiters Every Week</p>
-		</div>
-	   </div>
-	   <div class="col-md-4 space_left">
-	    <div class="choose_2ir clearfix">
-		 <i class="fa fa-trophy col_1"></i>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-md-3">
-	  <div class="choose_2i row m-0 clearfix">
-	   <div class="col-md-8 space_left">
-	    <div class="choose_2il clearfix">
-		 <h2 class="mgt">634</h2>
-		 <p class="font_14 mb-0">New Visiters Every Week</p>
-		</div>
-	   </div>
-	   <div class="col-md-4 space_left">
-	    <div class="choose_2ir clearfix">
-		 <i class="fa fa-building col_1"></i>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-
- </div>
-</section>
-
-<section id="testim">
- <div class="container">
-  <div class="row course_1 mb-3 text-center">
-    <div class="col-md-12">
-	  <h5 class="mb-3">TESTIMONIALS</h5>
-	  <h2>What Client <span class="col_1">Say's</span></h2>
-	</div>
-  </div>
-  <div class="row testim_1">
-    <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="testim_1i row">
-	    <div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/11.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Eget Nulla</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-		<div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/24.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Semp Port</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-		<div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/25.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Dapibus Diam</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-
-	  </div>
-    </div>
-    <div class="carousel-item">
-        <div class="testim_1i row">
-	    <div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/11.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Eget Nulla</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-		<div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/24.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Semp Port</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-		<div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/25.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Dapibus Diam</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-
-	  </div>
-    </div>
-    <div class="carousel-item">
-         <div class="testim_1i row">
-	    <div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/11.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Eget Nulla</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-		<div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/24.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Semp Port</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-		<div class="col-md-4">
-		  <div class="testim_1i1">
-		    <span class="col_1">
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			 <i class="fa fa-star"></i>
-			</span>
-			<img style="border-radius:50%; margin-left:20px;" src="img/25.jpg" alt="abc">
-			<span style="font-size:60px;" class="d-block col_1 mt-2"><i class="fa fa-quote-left"></i></span>
-			<p class="mt-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<h5>Dapibus Diam</h5>
-			<h6 class="col_2 mb-0">Founder &amp; CEO</h6>
-		  </div>
-		</div>
-
-	  </div>
-    </div>
-  </div>
-
-</div>
-  </div>
- </div>
-</section>
-
-<section id="team">
- <div class="container">
-  <div class="row course_1 mb-3 text-center">
-    <div class="col-md-12">
-	  <h5 class="mb-3">TEAM</h5>
-	  <h2>Meet Our <span class="col_1">Instructor</span></h2>
-	</div>
-  </div>
-  <div class="row team_h_2 mt-3">
-	  <div class="col-md-3">
-	    <div class="team_h_2i position-relative">
-		 <div class="team_h_2i1">
-		  <img class="w-100" src="img/18.jpg" alt="abc">
-		 </div>
-		 <div class="team_h_2i2 position-absolute">
-		   <ul class="mb-0">
-		     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-			 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-		   </ul>
-		 </div>
-		</div>
-		<div class="team_h_2ib text-center">
-		 <h4>Eget Nulla</h4>
-		 <h6 class="mb-0 col_1">Instructor</h6>
-		</div>
-	  </div>
-	  <div class="col-md-3">
-	    <div class="team_h_2i position-relative">
-		 <div class="team_h_2i1">
-		  <img class="w-100" src="img/19.jpg" alt="abc">
-		 </div>
-		 <div class="team_h_2i2 position-absolute">
-		   <ul class="mb-0">
-		     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-			 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-		   </ul>
-		 </div>
-		</div>
-		<div class="team_h_2ib text-center">
-		 <h4>Nulla Port</h4>
-		 <h6 class="mb-0 col_1">Instructor</h6>
-		</div>
-	  </div>
-	  <div class="col-md-3">
-	    <div class="team_h_2i position-relative">
-		 <div class="team_h_2i1">
-		  <img class="w-100" src="img/20.jpg" alt="abc">
-		 </div>
-		 <div class="team_h_2i2 position-absolute">
-		   <ul class="mb-0">
-		     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-			 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-		   </ul>
-		 </div>
-		</div>
-		<div class="team_h_2ib text-center">
-		 <h4>Dapibus Diam</h4>
-		 <h6 class="mb-0 col_1">Instructor</h6>
-		</div>
-	  </div>
-	  <div class="col-md-3">
-	    <div class="team_h_2i position-relative">
-		 <div class="team_h_2i1">
-		  <img class="w-100" src="img/21.jpg" alt="abc">
-		 </div>
-		 <div class="team_h_2i2 position-absolute">
-		   <ul class="mb-0">
-		     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-			 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-		   </ul>
-		 </div>
-		</div>
-		<div class="team_h_2ib text-center">
-		 <h4>Semp Port</h4>
-		 <h6 class="mb-0 col_1">Instructor</h6>
-		</div>
-	  </div>
-	 </div>
- </div>
-</section>
 
 
 

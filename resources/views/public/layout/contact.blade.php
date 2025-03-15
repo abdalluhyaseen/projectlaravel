@@ -1,126 +1,89 @@
 @extends('public.masterpage')
 @section('content')
 
-<section id="center" class="center_o">
- <div class="container">
-  <div class="row center_o1">
-   <div class="col-md-12">
-	 <h5 class="normal col_1 mb-0"><a class="col_2" href="#">Home</a> <span class="col_2">/</span> <a class="col_2" href="#">Pages</a> <span class="col_2">/</span>  Contact Us  </h5>
-   </div>
-  </div>
- </div>
-</section>
+ <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70 text-center">
+                                <h2>Contact Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--?  Contact Area start  -->
+        <section class="contact-section">
+            <div class="container">
 
-<section id="contact">
- <div class="container">
-   <div class="row contact_1 m-0">
-    <div class="col-md-8">
-	 <div class="contact_1l">
-	    <h3>Get In Touch</h3>
-		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-		<div class="row quote_2 mt-3 text-center">
-       <div class="col-md-6">
-	    <div class="quote_2l">
-		 <input placeholder="Name" class="form-control" type="text">
-		</div>
-	   </div>
-	   <div class="col-md-6">
-	    <div class="quote_2l">
-		 <input placeholder="Email Address" class="form-control" type="text">
-		</div>
-	   </div>
-     </div>
-	    <div class="row quote_2 mt-4 text-center">
-       <div class="col-md-6">
-	    <div class="quote_2l">
-		 <input placeholder="Phone Number" class="form-control" type="text">
-		</div>
-	   </div>
-	   <div class="col-md-6">
-	    <div class="quote_2l">
-		 <input placeholder="Website" class="form-control" type="text">
-		</div>
-	   </div>
-     </div>
-	    <div class="row quote_2 mt-4 text-center">
-	   <div class="col-md-12">
-	    <div class="quote_2l">
-		 <textarea style="height:200px;" placeholder="Write a Message" class="form-control"></textarea>
-		</div>
-	   </div>
-     </div>
-	    <div class="row quote_2 mt-4">
-	   <div class="col-md-12">
-	    <div class="quote_2l">
-		  <h6 class="d-inline-block mt-2 mb-0"><a class="button" href="#"> SEND MESSAGE  <i style="margin-left:5px;" class="fa fa-paper-plane"></i> </a></h6>
-		</div>
-	   </div>
-     </div>
-	 </div>
-	</div>
-	<div class="col-md-4">
-	 <div class="contact_1r">
-	  <div class="contact_1ri row">
-	   <div class="col-md-2">
-	    <div class="contact_1ril">
-		 <span><i class="fa fa-map-marker"></i></span>
-		</div>
-	   </div>
-	   <div class="col-md-10">
-	    <div class="contact_1rir">
-		 <h4 class="mb-1">Office Address</h4>
-		 <p>15/D Semper Road, Old Fort </p>
-		</div>
-	   </div>
-	  </div>
-	  <div class="contact_1ri row mt-3">
-	   <div class="col-md-2">
-	    <div class="contact_1ril">
-		 <span><i class="fa fa-phone"></i></span>
-		</div>
-	   </div>
-	   <div class="col-md-10">
-	    <div class="contact_1rir">
-		 <h4 class="mb-1">Call Us</h4>
-		 <p>+123 123 456  </p>
-		</div>
-	   </div>
-	  </div>
-	  <div class="contact_1ri row mt-3">
-	   <div class="col-md-2">
-	    <div class="contact_1ril">
-		 <span><i class="fa fa-envelope"></i></span>
-		</div>
-	   </div>
-	   <div class="col-md-10">
-	    <div class="contact_1rir">
-		 <h4 class="mb-1">Email Us</h4>
-		 <p>info@gmail.com </p>
-		</div>
-	   </div>
-	  </div>
-	  <div class="contact_1ri row mt-3">
-	   <div class="col-md-2">
-	    <div class="contact_1ril">
-		 <span><i class="fa fa-clock-o"></i></span>
-		</div>
-	   </div>
-	   <div class="col-md-10">
-	    <div class="contact_1rir">
-		 <h4 class="mb-1">Opening Hours</h4>
-		 <p>Mon - Sat (09AM - 07PM) </p>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-   </div>
-   <div class="row contact_2 mt-5">
-    <div class="col-md-12">
-	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.53925916665!2d-80.29949920266738!3d25.782390733064336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+FL%2C+USA!5e0!3m2!1sen!2sin!4v1530774403788" height="450" style="border:0; width:100%;" allowfullscreen=""></iframe>
-	</div>
-   </div>
- </div>
-</section>
+
+
+                </div>
+                <div class="row m-4">
+                    <div class="col-12">
+                        <h2 class="contact-title">Get in Touch</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>Buttonwood, California.</h3>
+                                <p>Rosemead, CA 91770</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>+1 253 565 2365</h3>
+                                <p>Mon to Fri 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <h3>support@colorlib.com</h3>
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Area End -->
+    </main>
 
 @endsection

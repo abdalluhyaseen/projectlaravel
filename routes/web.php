@@ -13,12 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+Route::get('/dash', function () {
+    return view('dashbord.layout.dashbord');
 });
 
 
-Route::get('/home', function () {
+
+Route::get('/', function () {
     return view('public.layout.homepage');
 });
 
@@ -31,34 +35,12 @@ Route::get('/contact', function () {
     return view('public.layout.contact');
 });
 
-Route::get('/course', function () {
-    return view('public.layout.course');
+Route::get('/services', function () {
+    return view('public.layout.services');
 });
 
-Route::get('/detal', function () {
-    return view('public.layout.coursedetal');
+Route::get('/portfolio', function () {
+    return view('public.layout.portfolio');
 });
 
-
-Route::get('/gallery', function () {
-    return view('public.layout.gallery');
-});
-
-Route::get('/pricing', function () {
-    return view('public.layout.pricing');
-});
-
-
-Route::get('/login', function () {
-    return view('public.layout.login');
-});
-
-
-Route::get('/register', function () {
-    return view('public.layout.register');
-});
-
-Route::get('/quote', function () {
-    return view('public.layout.quote');
-});
 
