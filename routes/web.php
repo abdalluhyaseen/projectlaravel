@@ -43,4 +43,11 @@ Route::get('/portfolio', function () {
     return view('public.layout.portfolio');
 });
 
+Route::get('/login', function () {
+    return view('public.layout.login');
+});
+
+Route::get('/saignup', function () {
+    return view('public.layout.saignup');
+});
 
