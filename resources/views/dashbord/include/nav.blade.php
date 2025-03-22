@@ -88,7 +88,7 @@
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
+                  <a class="dropdown-item preview-it+em">
                     <div class="preview-thumbnail">
                       <img src="assets/images/faces/face3.jpg" alt="image" class="rounded-circle profile-pic">
                     </div>
@@ -176,9 +176,14 @@
                         <i class="mdi mdi-logout text-danger"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Log out</p>
-                    </div>
+         <form method="POST" action="{{ route('logout') }}" id="logout-form">
+    @csrf
+    <button type="submit" style="all: unset; cursor: pointer;">
+        <div class="preview-item-content">
+            <p class="preview-subject mb-1">Log out</p>
+        </div>
+    </button>
+</form>
                   </a>
                   <div class="dropdown-divider"></div>
                   <p class="p-3 mb-0 text-center">Advanced settings</p>
@@ -190,3 +195,6 @@
             </button>
           </div>
         </nav>
+        <form method="POST" action="{{ route('logout') }}" id="logout-form" style="display: none;">
+    @csrf
+</form>

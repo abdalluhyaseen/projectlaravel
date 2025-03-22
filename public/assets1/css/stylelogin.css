@@ -135,3 +135,9 @@ button:hover {
   margin-top: 30px;
   color: #fff;
 }
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

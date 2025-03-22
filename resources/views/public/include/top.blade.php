@@ -9,7 +9,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets1/img/favicon.ico">
 
-	<!-- CSS here -->
+	
 	<link rel="stylesheet" href="assets1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets1/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets1/css/slicknav.css">
@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="assets1/css/slick.css">
 	<link rel="stylesheet" href="assets1/css/nice-select.css">
 	<link rel="stylesheet" href="assets1/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets1/css/style5.css">
 </head>
 <body>
 

@@ -29,7 +29,7 @@
                                             <li class="active"><a href="/">Home</a></li>
                                             <li><a href="about">About</a></li>
                                             <li><a href="services">Services</a></li>
-                                            <li><a href="portfolio">Portfolio</a></li>
+                                            <li><a href="booking">Booking</a></li>
 
 
                                             <li><a href="contact">Contact</a></li>
@@ -37,8 +37,36 @@
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="customer" class="btn header-btn">sign up</a>
-                                </div>
+                           @if (Route::has('login'))
+    @auth
+        <!-- Profile Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="{{ Auth::user()->profile_picture ?? 'https://pbs.twimg.com/media/EEUy6MCU0AErfve.png' }}" alt="Profile" class="rounded-circle" width="35" height="35">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="{{ url('/profile') }}" style="font-size: 14px; font-weight: bold;">Profile</a>
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button type="submit" class="dropdown-item" style="font-size: 14px; font-weight: bold; cursor: pointer;">Logout</button>
+                </form>
+            </div>
+        </li>
+    @else
+        <div style="display: flex; gap: 10px;">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('login') }}" style="font-size: 17px;">Login</a>
+            </li>
+            @if (Route::has('register'))
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('register') }}" style="font-size: 17px;">Register</a>
+                </li>
+            @endif
+        </div>
+    @endauth
+@endif
+
+                     </div>
                             </div>
                         </div>
                         <!-- Mobile Menu -->
