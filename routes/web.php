@@ -28,6 +28,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\StatisticsController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\bookingController;
 
 Route::get('/dash', [DashboardController::class, 'index']);
 
@@ -150,6 +151,8 @@ Route::get('/booking', function () {
     return view('public.layout.booking');
 });
 
+Route::get('/booking', [BookingController::class, 'show']);
+
 
 Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
     ->name('logout');
@@ -166,7 +169,7 @@ Route::put('/profile', [ProfileController::class, 'update'])->name('profile.upda
 
 Route::get('/', [HomeController::class, 'index'])->name('homepage');
 
-use App\Http\Controllers\BookingController;
+
 
 Route::post('/book-appointment', [BookingController::class, 'store'])->name('book-appointment');
 

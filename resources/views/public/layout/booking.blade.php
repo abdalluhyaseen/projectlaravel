@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container15">
         <h2>Appointment Details</h2>
         <form action="{{ route('book-appointment') }}" method="POST" class="booking-form" id="booking-form">
@@ -24,44 +24,44 @@
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required placeholder="Enter your full name">
             </div>
-        
+
             <div class="input-field">
                 <label for="email">Your Email</label>
                 <input type="email" id="email" name="email" required placeholder="Enter your email">
             </div>
-        
+
             <div class="input-field">
                 <label for="phone">Phone Number</label>
                 <input type="text" id="phone" name="phone" required placeholder="Enter your phone number">
             </div>
-        
+
             <div class="input-field">
                 <label for="service">Select Service</label>
                 <select id="service" name="service" required>
-                    <option value="haircut">Haircut</option>
-                    <option value="beard-trim">Beard Trim</option>
-                    <option value="shave">Shave</option>
-                    <option value="haircut-beard">Haircut & Beard Trim</option>
+                    @foreach ($services as $service)
+                        <option value="{{ $service->id }}">{{ $service->name }}</option>
+                    @endforeach
                 </select>
             </div>
-        
+
+
             <div class="input-field">
                 <label for="date">Preferred Date</label>
                 <input type="date" id="date" name="date" required>
             </div>
-        
+
             <div class="input-field">
                 <label for="time">Preferred Time</label>
                 <input type="time" id="time" name="time" required>
             </div>
-        
+
             <button type="submit" class="button">Book Appointment</button>
         </form>
     </div>
  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
  <script>
     document.getElementById('booking-form').addEventListener('submit', function(e) {
-        e.preventDefault(); 
+        e.preventDefault();
 
         const form = this;
 
@@ -82,7 +82,7 @@
                     'success'
                 ).then(() => {
                     form.style.display = 'none';
-                    
+
 
                     const successMessage = document.createElement('h1');
                     successMessage.textContent = 'Booking Successful';
@@ -100,8 +100,6 @@
 
 
 
- 
+
 
     @endsection
-
-   

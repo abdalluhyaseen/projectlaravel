@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Appointment;
+use App\Models\Service;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Mail;
@@ -35,7 +36,12 @@ class BookingController extends Controller{
     Mail::to($validated['email'])->send(new AppointmentConfirmation($appointment));
 
     return redirect()->back()->with('status', 'Appointment booked successfully! A confirmation email has been sent.');
+
 }
+public function show()
+{
+$services = Service::all(); // جلب كل الخدمات من الجدول
+ return view('public.layout.booking', compact('services'));
 }
 
-
+}
