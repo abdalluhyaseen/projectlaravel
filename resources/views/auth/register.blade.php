@@ -11,6 +11,11 @@
     <form method="POST" action="{{ route('register') }}">
       @csrf
       <h2>Register</h2>
+       @if (session('status'))
+       <div class="alert alert-success">
+           {{ session('status') }}
+       </div>
+     @endif
       <div class="input-field">
         <input type="text" name="name" value="{{ old('name') }}" required autofocus>
         <label>Full Name</label>

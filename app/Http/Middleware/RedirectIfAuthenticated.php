@@ -16,15 +16,22 @@ class RedirectIfAuthenticated
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
     public function handle(Request $request, Closure $next, string ...$guards): Response
-    {
-        $guards = empty($guards) ? [null] : $guards;
+{
+    $guards = empty($guards) ? [null] : $guards;
 
-        foreach ($guards as $guard) {
-            if (Auth::guard($guard)->check()) {
-                return redirect(RouteServiceProvider::HOME);
+    foreach ($guards as $guard) {
+        if (Auth::guard($guard)->check()) {
+            // If the user is authenticated but hasn't verified their email, redirect to the verification notice
+            if (!Auth::user()->hasVerifiedEmail()) {
+                return redirect()->route('verification.notice');
             }
-        }
 
-        return $next($request);
+            // If the user is authenticated and has verified their email, redirect to the home page
+            return redirect(RouteServiceProvider::HOME);
+        }
     }
+
+    return $next($request);
+}
+
 }

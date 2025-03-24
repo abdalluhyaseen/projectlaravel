@@ -16,6 +16,7 @@ class ContactController extends Controller
          $contacts = Contact::all();
          return view("dashbord.layout.Contact_Crud.index", compact("contacts"));
     }
+  
 
     /**
      * Show the form for creating a new resource.
@@ -28,15 +29,22 @@ class ContactController extends Controller
     /**
      * Store a newly created resource in storage.
      */
+
+
     public function store(Request $request)
     {
-             $Contact = new Contact();
-        $Contact->name = $request->name;
-        $Contact->email = $request->email;
-        $Contact->phone = $request->message;
-        $Contact->save();
+        // تحقق من صحة البيانات
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'message' => 'required|string',
+        ]);
 
-         return redirect()->route('contacts.index');
+        // تخزين الرسالة في قاعدة البيانات
+        Contact::create($validated);
+
+        // إعادة التوجيه مع رسالة نجاح
+        return redirect()->route('contacts.index')->with('success', 'Your message has been sent successfully!');
     }
 
     /**

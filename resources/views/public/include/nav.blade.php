@@ -42,7 +42,10 @@
         <!-- Profile Dropdown -->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="{{ Auth::user()->profile_picture ?? 'https://pbs.twimg.com/media/EEUy6MCU0AErfve.png' }}" alt="Profile" class="rounded-circle" width="35" height="35">
+               <img  class="img-xs rounded-circle"
+               style="width: 40px; height: 40px; border-radius: 50%;"
+     src="{{ Auth::user()->profile_picture ? asset('storage/profile_pictures/' . Auth::user()->profile_picture) : asset('assets/images/faces/face15.jpg') }}"
+     alt="Profile Picture">
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
                 <a class="dropdown-item" href="{{ url('/profile') }}" style="font-size: 14px; font-weight: bold;">Profile</a>

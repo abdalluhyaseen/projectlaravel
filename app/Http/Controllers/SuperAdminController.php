@@ -11,6 +11,6 @@ class SuperAdminController extends Controller
      */
     public function index()
     {
-        return view('dashbord.layout.dashbord'); // Replace with your actual view file
+        return view('dashbord.layout.dashboard'); // Replace with your actual view file
     }
 }
