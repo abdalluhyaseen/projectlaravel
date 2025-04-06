@@ -15,7 +15,7 @@ class ServiceController extends Controller
         $services = Service::all();
         return view('dashbord.services.index', compact('services'));
     }
-    
+
 
     /**
      * Show the form for creating a new resource.
@@ -40,15 +40,15 @@ class ServiceController extends Controller
     public function show(string $id)
     {
         $service = Service::find($id);
-        return view('dashdord.services.show', compact('service'));
+        return view('dashbord.services.show', compact('service'));
     }
-    
+
 
     /**
      * Show the form for editing the specified resource.
      */
     public function edit(string $id)
-    { 
+    {
         $service = Service::find($id);
         return view('dashbord.services.edit', compact('service'));
     }

@@ -28,7 +28,7 @@
                                         <ul id="navigation">
                                             <li class="active"><a href="/">Home</a></li>
                                             <li><a href="about">About</a></li>
-                                            <li><a href="service1">Services</a></li>
+                                            <li><a href="service">Services</a></li>
                                             <li><a href="booking">Booking</a></li>
 
 

@@ -44,7 +44,7 @@
              <!-- Arrow -->
              <div class="thumb-content-box">
                 <div class="thumb-content">
-                    <h3>make an appointment now</h3>
+                    <h3>Booking now</h3>
                     <a href="#"> <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                             </div>
                             <div class="service-cap">
                                 <h4><a href="#">Stylish Hair Cut</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>We provide the latest haircuts that suit your personality and make you more stylish.</p>
                             </div>
                         </div>
                     </div>
@@ -111,8 +111,8 @@
                                 <i class="flaticon-fitness"></i>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="#">Body Massege</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h4><a href="#">Skin Care</a></h4>
+                                <p>Experience unique skin care treatments to rejuvenate and refresh your skin.</p>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                             </div>
                             <div class="service-cap">
                                 <h4><a href="#">Breard Style</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <p>We specialize in designing beards to suit your facial features and add a touch of elegance.</p>
                             </div>
                         </div>
                     </div>

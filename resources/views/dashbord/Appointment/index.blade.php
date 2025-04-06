@@ -8,10 +8,12 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>User ID</th>
-                <th>Service ID</th>
+                <th>name</th>
+                <th>email</th>
+                <th>phone</th>
+                <th>service</th>
                 <th>Appointment Date</th>
-                <th>Status</th>
+                <th>time</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -19,10 +21,12 @@
             @foreach ($appointments as $appointment)
                 <tr>
                     <td>{{ $appointment->id }}</td>
-                    <td>{{ $appointment->user_id }}</td>
-                    <td>{{ $appointment->service_id }}</td>
-                    <td>{{ $appointment->appointment_date }}</td>
-                    <td>{{ $appointment->status }}</td>
+                    <td>{{ $appointment->name }}</td>
+                    <td>{{ $appointment->email }}</td>
+                    <td>{{ $appointment->phone }}</td>
+                    <td>{{ $appointment->service }}</td>
+                    <td>{{ $appointment->date }}</td>
+                    <td>{{ $appointment->time }}</td>
                     <td>
                         <a href="{{ route('appointments.edit', $appointment->id) }}" class="btn btn-warning">Edit</a>
                         <form action="{{ route('appointments.destroy', $appointment->id) }}" method="POST" style="display:inline;">

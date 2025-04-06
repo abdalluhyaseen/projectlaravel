@@ -38,10 +38,10 @@ class AppointmentController extends Controller
         $appointment->service = $request->service;
         $appointment->date = $request->date;
         $appointment->time = $request->time;
-        
-        if (auth()->check()) {
-            $appointment->user_id = auth()->id();
-        }
+
+        // if (auth()->check()) {
+        //     $appointment->user_id = auth()->id();
+        // }
 
         $appointment->save();
 
@@ -60,18 +60,21 @@ class AppointmentController extends Controller
         return view('dashbord.Appointment.edit', compact('appointment'));
     }
 
-    public function update(Request $request, Appointment $appointment)
-    {
-        $request->validate([
-            'user_id' => 'required|exists:users,id',
-            'service_id' => 'required|exists:services,id',
-            'appointment_date' => 'required|date',
-            'status' => 'required|string',
-        ]);
+  public function update(Request $request, $id)
+{
+    $appointment = Appointment::findOrFail($id);
 
-        $appointment->update($request->all());
-        return redirect()->route('appointments.index')->with('success', 'Appointment updated successfully.');
-    }
+    $appointment->name = $request->name;
+    $appointment->email = $request->email;
+    $appointment->phone = $request->phone;
+    $appointment->service = $request->service;
+    $appointment->date = $request->date;
+    $appointment->time = $request->time;
+
+    $appointment->save();
+
+    return redirect()->route('appointments.index')->with('success', 'Appointment updated successfully!');
+}
 
     public function destroy(Appointment $appointment)
     {

@@ -13,20 +13,17 @@ class CreateAppointmentsTable extends Migration
     {
         Schema::create('appointments', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->unsignedBigInteger('service_id'); 
             $table->string('name')->nullable();
             $table->string('email')->nullable();
-            $table->string('phone')->nullable(); 
+            $table->string('phone')->nullable();
             $table->string('service');
-            $table->date('appointment_date'); 
-            $table->time('appointment_time'); 
-            $table->string('status')->default('pending'); 
-            $table->softDeletes(); 
+            $table->date('date');
+            $table->time('time');
+            $table->softDeletes();
             $table->timestamps();
 
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');
+            // $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            // $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');
         });
     }
 

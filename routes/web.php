@@ -95,6 +95,10 @@ Route::middleware('guest')->group(function () {
     Route::post('/register', [RegisteredUserController::class, 'store']);
 });
 
+Route::resource('appointments', AppointmentController::class);
+Route::put('/appointments/{id}', [AppointmentController::class, 'update'])->name('appointments.update');
+
+
 // Show the registration form
 Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');
 
@@ -181,6 +185,10 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::get('/booking', [BookingController::class, 'create'])->name('booking');
+
+Route::post('/booking', [BookingController::class, 'store'])->name('book-appointment');
 
 // Apply the role middleware to ensure only super_admins can access these routes
 Route::middleware(['role:super_admin'])->group(function() {
