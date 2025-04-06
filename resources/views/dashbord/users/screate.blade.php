@@ -17,13 +17,7 @@
             <label class="form-label">Password</label>
             <input type="password" name="password" class="form-control" required>
         </div>
-        <div class="mb-3">
-            <label class="form-label">Role</label>
-            <select name="role" class="form-control">
-                <option value="user">User</option>
-                <option value="admin">Admin</option>
-            </select>
-        </div>
+       
         <button type="submit" class="btn btn-success">Add</button>
     </form>
 </div>

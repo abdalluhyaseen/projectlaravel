@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->foreignId('service_id')->constrained()->onDelete('cascade');
-            $table->dateTime('appointment_date'); 
+            $table->dateTime('appointment_date');
             $table->enum('status', ['Confirmed', 'In Progress', 'Rejected'])->default('In Progress');
+            $table->softDeletes();
         });
     }
 

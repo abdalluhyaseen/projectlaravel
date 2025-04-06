@@ -25,7 +25,7 @@
 
         <div class="form-group">
             <label for="service">Service</label>
-            <input type="text" name="service" class="form-control" value="{{ $appointment->service }}" required>
+            <input type="text" name="service" class="form-control" value="{{ $appointment->service->name ?? 'N/A' }}" required>
         </div>
 
         <div class="form-group">

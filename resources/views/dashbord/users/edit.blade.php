@@ -13,6 +13,15 @@
         <div class="mb-3">
             <label class="form-label">Email</label>
             <input type="email" name="email" class="form-control" value="{{ $user->email }}" required>
+
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Role</label>
+            <select name="role" class="form-control">
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
         </div>
         <button type="submit" class="btn btn-primary">Save Changes</button>
     </form>

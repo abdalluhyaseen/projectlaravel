@@ -17,6 +17,7 @@
     <label for="password" style="font-size: 14px; font-weight: bold; color: #333;">password:</label>
     <input type="password" id="password" name="password" value="{{$customer->password}}" style="padding: 10px; font-size: 14px; width: 100%; border: 1px solid #ccc; border-radius: 5px;">
 
+    
     <button type="submit" style="padding: 10px 20px; font-size: 14px; color: #fff; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
       Update
     </button>

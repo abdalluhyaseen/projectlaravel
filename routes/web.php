@@ -186,9 +186,15 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+// عرض صفحة الحجز
 Route::get('/booking', [BookingController::class, 'create'])->name('booking');
 
+// استقبال معلومات الحجز
 Route::post('/booking', [BookingController::class, 'store'])->name('book-appointment');
+
+// عرض الحجوزات في لوحة التحكم
+Route::get('/dashboard/appointments', [DashboardController::class, 'appointments'])->name('dashboard.appointments');
+
 
 // Apply the role middleware to ensure only super_admins can access these routes
 Route::middleware(['role:super_admin'])->group(function() {
